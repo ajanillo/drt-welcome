@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 85vh;
+    align-content: center;
+    width: 95%
+}
+
+.welcome{
+    font-family: 'Arial';
+    align-items: center;
+    text-align: center;
+    font-size: 14vmax;
+    font-weight: 900px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.45);
+    color: #00c486;
+}
+
+.to-drt{
+    font-family: 'Concert One', cursive;
+    align-items: center;
+    text-align: center;
+    font-size: 14vmax;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.45);
+}
